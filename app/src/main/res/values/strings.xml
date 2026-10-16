@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Temper</string>
+
+    <!-- Tabs -->
+    <string name="tab_forge">Forge</string>
+    <string name="tab_blade">Blade</string>
+    <string name="tab_learn">Learn</string>
+    <string name="tab_me">Me</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="nice">Good</string>
+    <string name="off">Off</string>
+    <string name="stop">Stop</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="settings">Settings</string>
+    <string name="note">Note</string>
+    <string name="water">Water</string>
+    <string name="air">Air</string>
+    <string name="rounds">Rounds</string>
+    <string name="in_cold">In the cold</string>
+    <string name="in_heat">In the heat</string>
+    <string name="voice">Voice</string>
+    <string name="min_short">%d min</string>
+    <string name="h_min_short">%1$d h %2$02d min</string>
+    <string name="about_min">~%d min</string>
+    <string name="temp_c">%s °C</string>
+    <string name="temp_f">%d °F</string>
+    <string name="min_read">%d min read</string>
+    <string name="read_next">Read next</string>
+
+    <plurals name="seconds">
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="sessions">
+        <item quantity="one">%d session</item>
+        <item quantity="other">%d sessions</item>
+    </plurals>
+
+    <!-- Kinds and styles -->
+    <string name="kind_cold">Cold</string>
+    <string name="kind_contrast">Contrast</string>
+    <string name="kind_sauna">Sauna</string>
+    <string name="style_shower">Cold shower</string>
+    <string name="style_bath">Ice bath</string>
+    <string name="style_open">Open water</string>
+    <string name="style_ice">Ice hole</string>
+    <string name="style_finnish">Finnish sauna</string>
+    <string name="style_banya">Banya</string>
+    <string name="style_hammam">Hammam</string>
+    <string name="style_infrared">Infrared</string>
+
+    <!-- Programs -->
+    <string name="plan_gentle">Gentle start</string>
+    <string name="plan_gentle_note">Warm, then a short cool burst. For the first weeks.</string>
+    <string name="plan_classic">Classic</string>
+    <string name="plan_classic_note">Three rounds, ending on cold. The everyday morning.</string>
+    <string name="plan_awaken">Awakening</string>
+    <string name="plan_awaken_note">Five quick switches when you need to be sharp.</string>
+    <string name="plan_recovery">After training</string>
+    <string name="plan_recovery_note">Long warm stretches for tired muscles, a minute of cold each.</string>
+    <string name="plan_steel">Steel</string>
+    <string name="plan_steel_note">Equal hot and cold, five times. For the seasoned.</string>
+    <string name="plan_sauna_gentle">First visits</string>
+    <string name="plan_sauna_gentle_note">Two short rounds and long rests while the body gets used to the heat.</string>
+    <string name="plan_finnish">Finnish classic</string>
+    <string name="plan_finnish_note">Three rounds of heat, a cool plunge and a proper rest.</string>
+    <string name="plan_banya">Russian banya</string>
+    <string name="plan_banya_note">Steam and the venik, a plunge, then tea between rounds.</string>
+    <string name="plan_soberg">Søberg</string>
+    <string name="plan_soberg_note">Long heat, and the last round ends on cold: let the body warm itself.</string>
+    <string name="plan_hammam">Hammam</string>
+    <string name="plan_hammam_note">Wet, softer heat; longer rounds, warm rests.</string>
+    <string name="plan_shape_contrast">%1$d × %2$s hot / %3$s cold</string>
+    <string name="plan_shape_sauna">%1$d × %2$s min heat · %3$s cool · %4$s min rest</string>
+
+    <!-- Steps -->
+    <string name="step_breathe">Breathe</string>
+    <string name="step_sauna">In the sauna</string>
+    <string name="step_hot">Hot</string>
+    <string name="step_cold">Cold</string>
+    <string name="step_cool">Cool down</string>
+    <string name="step_water">In the water</string>
+    <string name="step_rest">Rest</string>
+    <string name="step_warm">Warm up</string>
+    <string name="round_of">Round %1$d of %2$d</string>
+    <string name="next_step">Next: %1$s · %2$s</string>
+    <string name="last_step">Last step</string>
+
+    <!-- Forge -->
+    <string name="greet_morning">Good morning</string>
+    <string name="greet_day">Good afternoon</string>
+    <string name="greet_evening">Good evening</string>
+    <string name="greet_night">Good night</string>
+    <string name="forge_title">The forge</string>
+    <string name="forge_start">Light the forge</string>
+    <string name="forge_week">This week</string>
+    <string name="forge_trial">Trial</string>
+    <string name="forge_tip">From the smith</string>
+    <string name="forge_today_empty">Nothing yet today. Even 15 seconds of cold at the end of a shower counts.</string>
+    <string name="forge_today_empty_streak">Nothing yet today. Your chain: %s.</string>
+    <string name="norm_cold">Cold</string>
+    <string name="norm_heat">Heat</string>
+    <string name="norm_note">A week is full when every goal is reached.</string>
+    <string name="norm_weeks">%d full weeks in a row</string>
+    <string name="glow_hot">The blade glows</string>
+    <string name="glow_warm">Still warm</string>
+    <string name="glow_cooling">Cooling down</string>
+    <string name="glow_cold">The forge is cold</string>
+
+    <!-- Tempers -->
+    <string name="temper_raw">Raw iron</string>
+    <string name="temper_pale">Pale straw</string>
+    <string name="temper_straw">Straw</string>
+    <string name="temper_bronze">Bronze</string>
+    <string name="temper_purple">Purple</string>
+    <string name="temper_blue">Deep blue</string>
+    <string name="temper_sky">Sky blue</string>
+    <string name="temper_grey">Steel grey</string>
+    <string name="level_up">A new temper</string>
+    <string name="level_up_text">Your steel took on a new colour. Real blades go through the same colours as they are tempered.</string>
+
+    <!-- Setup -->
+    <string name="setup_where">Where</string>
+    <string name="setup_water">Water</string>
+    <string name="setup_know_water">I know the water temperature</string>
+    <string name="setup_water_temp">Temperature</string>
+    <string name="setup_target">Target</string>
+    <string name="setup_target_note">A target, not a test: come out when you are ready, before or after it.</string>
+    <string name="setup_limit_warn">At this temperature stay under %s. Come out sooner if the shivering gets strong or your hands go numb.</string>
+    <string name="setup_ritual">Ritual</string>
+    <string name="setup_breathe">A minute of breathing first</string>
+    <string name="setup_breathe_sub">Calm, on land: four seconds in, six out. No breath holds.</string>
+    <string name="setup_shiver">Warm up on your own</string>
+    <string name="setup_shiver_sub">Five minutes afterwards: move, dress, let the body heat itself.</string>
+    <string name="setup_spot">Place (a lake, a beach…)</string>
+    <string name="setup_sauna_phone">The phone stays outside. Before you go in, it tells you the time to come out by the sauna clock; when you are out, tap “I’m out” and it leads the cool-down and the rest.</string>
+    <string name="setup_sauna_temp">Sauna temperature</string>
+    <string name="setup_contrast_note">Leave the phone just outside the shower: a voice and tones say when to switch. The last round always ends on cold.</string>
+    <string name="setup_program">Program</string>
+    <string name="setup_fear">How much do you not want to?</string>
+    <string name="setup_fear_note">From “easy” to “I really don’t want to”. Watch this fall over the weeks.</string>
+    <string name="start">Begin</string>
+    <string name="start_sauna">Going in</string>
+    <string name="program_new">Your own program</string>
+    <string name="program_edit">Edit program</string>
+    <string name="program_name">Name</string>
+    <string name="program_name_hint">After the gym, Sunday sauna…</string>
+    <string name="program_rhythm">Rhythm</string>
+    <string name="program_end_cold">End on cold</string>
+    <string name="program_end_cold_sub">No rest after the last cold: the body warms itself.</string>
+    <string name="program_delete">Delete the program?</string>
+    <string name="program_delete_text">Sessions done with it stay in the ledger.</string>
+
+    <!-- Session -->
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="paused">Paused</string>
+    <string name="skip">Skip</string>
+    <string name="left">left</string>
+    <string name="target_of">target %s</string>
+    <string name="target_done">target %s reached</string>
+    <string name="breathe_in">breathe in</string>
+    <string name="breathe_out">breathe out, slowly</string>
+    <string name="im_out">I’m out</string>
+    <string name="out_of_water">Out of the water</string>
+    <string name="hint_sauna">Come out at %s. The phone waits here and rings when it’s time.</string>
+    <string name="hint_hot">Hot water. Relax your shoulders.</string>
+    <string name="hint_cold">Cold. Long, slow exhales.</string>
+    <string name="hint_cool">Cold plunge or a cold shower. Breathe out long.</string>
+    <string name="hint_phase0">The shock. Breathe out long and slow; it passes.</string>
+    <string name="hint_phase1">Settling in. Breathe evenly, unclench your hands.</string>
+    <string name="hint_phase2">The calm. Stay still and let it be quiet.</string>
+    <string name="hint_limit">Time to get out of the water.</string>
+    <string name="hint_breathe">On land, calmly. No breath holds, no forced breathing.</string>
+    <string name="hint_rest">Sit or lie down. Drink some water.</string>
+    <string name="hint_warm">Move, dress, have something warm to drink. Let your body heat itself before a hot shower.</string>
+    <string name="stop_title">End the session?</string>
+    <string name="stop_text">Save what you have done, or throw it away.</string>
+    <string name="stop_save">Save</string>
+    <string name="stop_discard">Discard</string>
+    <string name="out_when">When did you come out?</string>
+    <string name="out_when_text">The bell rang a while ago. If you came out on time, the session keeps the planned heat.</string>
+    <string name="out_planned">On time, %s</string>
+    <string name="out_now">Just now, %s</string>
+    <string name="notif_out_at">Come out at %s</string>
+
+    <!-- Voice -->
+    <string name="v_breathe">Breathe calmly. Four seconds in, six seconds out.</string>
+    <string name="v_water">Into the water. Breathe out long and slow.</string>
+    <string name="v_hot">Hot.</string>
+    <string name="v_cold">Cold.</string>
+    <string name="v_cool">Cool down. Cold water, %s.</string>
+    <string name="v_sauna_in">Into the heat. Come out at %s. I will ring.</string>
+    <string name="v_sauna_out">Time to come out of the sauna.</string>
+    <string name="v_rest">Rest for %s. Sit down and drink some water.</string>
+    <string name="v_drink">Have a drink of water.</string>
+    <string name="v_phase1">The shock is passing. Keep breathing slowly.</string>
+    <string name="v_phase2">Now it gets calm. Stay still.</string>
+    <string name="v_target">Target reached. Come out whenever you are ready.</string>
+    <string name="v_limit">Time to get out of the water.</string>
+    <string name="v_warm">Out of the water. Warm up on your own: move and get dressed.</string>
+    <string name="v_last_round">Last round.</string>
+    <string name="v_done">Done. Another layer of steel.</string>
+    <string name="v_test">The forge is ready. I will tell you when to switch.</string>
+
+    <!-- Finish -->
+    <string name="finish_eyebrow">Quenched</string>
+    <string name="finish_title">A new layer</string>
+    <string name="finish_energy">Energy now</string>
+    <string name="finish_mood">Mood now</string>
+    <string name="finish_note_hint">How it went, what helped…</string>
+
+    <!-- Blade -->
+    <string name="blade_title">Your blade</string>
+    <string name="blade_layers">%d layers</string>
+    <string name="blade_temper">Temper colour</string>
+    <string name="blade_next">Next: %1$s, %2$d points to go. Every session adds points; cold counts most.</string>
+    <string name="blade_max">The full run of colours. The steel is tempered.</string>
+    <string name="blade_numbers">Numbers</string>
+    <string name="blade_calendar">Five weeks</string>
+    <string name="stat_sessions">sessions</string>
+    <string name="stat_streak">chain, days</string>
+    <string name="stat_best">best chain</string>
+    <string name="stat_cold">in cold</string>
+    <string name="stat_heat">in heat</string>
+    <string name="stat_longest">longest cold</string>
+    <string name="stat_coldest">coldest water</string>
+    <string name="stat_rounds">contrast and sauna rounds</string>
+    <string name="stat_weeks">full weeks</string>
+    <string name="streak_rule">Chain: %s. One rest day between sessions doesn’t break it.</string>
+    <string name="fear_title">How hard it is to begin</string>
+    <string name="fear_trend">From %1$s in your first sessions to %2$s lately (1 is easy, 5 is “I really don’t want to”).</string>
+    <string name="fear_soon">A few more sessions and the trend will show.</string>
+    <string name="marks_title">Maker’s marks · %1$d of %2$d</string>
+    <string name="mark_unlocked">A new mark</string>
+    <string name="mark_more">And %d more.</string>
+    <string name="mark_have">Stamped on your blade</string>
+    <string name="mark_locked">Not yet</string>
+    <string name="share_blade">Share the blade</string>
+    <string name="share_text">My blade in Temper: %1$s, %2$d layers.</string>
+    <string name="journal">Ledger</string>
+    <string name="journal_open">The smith’s ledger</string>
+    <string name="journal_open_sub">Every session, with notes and temperatures</string>
+    <string name="journal_empty">The ledger is empty. Your first session goes here.</string>
+    <string name="session_add">Add a session by hand</string>
+    <string name="session_edit">Session</string>
+    <string name="session_what">What</string>
+    <string name="session_when">When</string>
+    <string name="session_time">Time</string>
+    <string name="session_temps">Temperatures</string>
+    <string name="session_know_air">I know the sauna temperature</string>
+    <string name="session_spot">Place</string>
+    <string name="session_delete">Delete the session?</string>
+    <string name="session_delete_text">Its layer disappears from the blade.</string>
+
+    <!-- Marks -->
+    <string name="b_first_cold">First cold</string>
+    <string name="b_first_cold_t">The first time in cold water. The hardest step is behind you.</string>
+    <string name="b_first_contrast">First contrast</string>
+    <string name="b_first_contrast_t">Hot and cold, back and forth: the forge and the trough.</string>
+    <string name="b_first_sauna">First heat</string>
+    <string name="b_first_sauna_t">Your first sauna in the ledger.</string>
+    <string name="b_cold_1m">A minute</string>
+    <string name="b_cold_1m_t">A full minute in cold water.</string>
+    <string name="b_cold_3m">Three minutes</string>
+    <string name="b_cold_3m_t">Three minutes in the cold, long past the shock.</string>
+    <string name="b_cold_5m">Five minutes</string>
+    <string name="b_cold_5m_t">Five minutes in cold water. Calm is yours now.</string>
+    <string name="b_water_10">Under ten</string>
+    <string name="b_water_10_t">Water at 10 °C or colder.</string>
+    <string name="b_water_4">Near ice</string>
+    <string name="b_water_4_t">Water at 4 °C or colder.</string>
+    <string name="b_open_water">Wild water</string>
+    <string name="b_open_water_t">A lake, a river or the sea.</string>
+    <string name="b_ice_hole">The ice hole</string>
+    <string name="b_ice_hole_t">Into a hole cut in the ice.</string>
+    <string name="b_dawn">Dawn</string>
+    <string name="b_dawn_t">A session before seven in the morning.</string>
+    <string name="b_soberg">Ending on cold</string>
+    <string name="b_soberg_t">A sauna finished on cold, the Søberg way.</string>
+    <string name="b_sessions_10">Ten layers</string>
+    <string name="b_sessions_10_t">Ten sessions folded into the steel.</string>
+    <string name="b_sessions_50">Fifty layers</string>
+    <string name="b_sessions_50_t">Fifty sessions. A pattern is showing.</string>
+    <string name="b_sessions_100">A hundred layers</string>
+    <string name="b_sessions_100_t">A hundred sessions. True Damascus.</string>
+    <string name="b_streak_7">A week’s chain</string>
+    <string name="b_streak_7_t">Seven days of practice in one chain.</string>
+    <string name="b_streak_30">A month’s chain</string>
+    <string name="b_streak_30_t">Thirty days of practice in one chain.</string>
+    <string name="b_week_full">Full week</string>
+    <string name="b_week_full_t">Every weekly goal reached.</string>
+    <string name="b_weeks_4">Four full weeks</string>
+    <string name="b_weeks_4_t">Four full weeks in a row.</string>
+    <string name="b_fear_down">No fear</string>
+    <string name="b_fear_down_t">Once it was “I really don’t want to”. Now it was easy.</string>
+    <string name="b_heat_10h">Ten hours of heat</string>
+    <string name="b_heat_10h_t">Ten hours in heat in all.</string>
+    <string name="b_rounds_50">Fifty rounds</string>
+    <string name="b_rounds_50_t">Fifty contrast and sauna rounds.</string>
+    <string name="b_trinity">All three</string>
+    <string name="b_trinity_t">Cold, contrast and sauna in one week.</string>
+    <string name="b_trial">Trial passed</string>
+    <string name="b_trial_t">A whole trial, from start to finish.</string>
+
+    <!-- Trials -->
+    <string name="trials">Trials</string>
+    <string name="trials_intro">A trial counts sessions, not days: a missed day never breaks it, you simply carry on.</string>
+    <string name="trial_first_ice">First Ice</string>
+    <string name="trial_first_ice_t">Thirty cold sessions, from 15 seconds up to 3 minutes. Each one asks a little more than the last.</string>
+    <string name="trial_dawn">Dawn</string>
+    <string name="trial_dawn_t">Twenty-one days with cold before nine in the morning.</string>
+    <string name="trial_contrast">Contrast fortnight</string>
+    <string name="trial_contrast_t">Fourteen days with a contrast shower.</string>
+    <string name="trial_sauna">Eight saunas</string>
+    <string name="trial_sauna_t">Eight saunas, each ending on cold.</string>
+    <string name="trial_winter">Wild water</string>
+    <string name="trial_winter_t">Ten swims in open water or an ice hole. Never alone.</string>
+    <string name="trial_begin">Begin the trial</string>
+    <string name="trial_abandon">Leave the trial</string>
+    <string name="trial_abandon_text">The progress is lost, but your sessions stay in the ledger.</string>
+    <string name="trial_switch">Switch trials?</string>
+    <string name="trial_switch_text">Only one trial runs at a time; the progress in the current one is lost.</string>
+    <string name="trial_progress">%1$d of %2$d</string>
+    <string name="trial_today_ice">Today: %s of cold</string>
+    <string name="trial_today_done">Done for today</string>
+    <string name="trial_next_ice">Next: hold %s of cold</string>
+    <string name="trial_passed">Passed</string>
+    <string name="trial_pick">Pick a trial</string>
+    <string name="trial_pick_sub">First Ice, Dawn, Eight saunas…</string>
+    <string name="trial_done">Trial passed</string>
+    <string name="trial_done_text">From the first session to the last. Your blade wears the mark.</string>
+
+    <!-- Learn -->
+    <string name="learn_sub">How cold and heat work, how to start, and how to stay safe.</string>
+    <string name="articles">Articles</string>
+    <string name="safety_title">Safety first</string>
+    <string name="safety_sub">When not to, and the signs to stop at once</string>
+    <string name="topic_all">All</string>
+    <string name="topic_cold">Cold</string>
+    <string name="topic_contrast">Contrast</string>
+    <string name="topic_sauna">Sauna</string>
+    <string name="topic_science">Science</string>
+    <string name="topic_safety">Safety</string>
+
+    <!-- Me -->
+    <string name="insights">After sessions</string>
+    <string name="insights_soon">Rate your energy and mood after a few sessions and the picture appears here.</string>
+    <string name="insights_row">energy %1$s · mood %2$s</string>
+    <string name="insights_time">Energy after morning sessions: %1$s; later in the day: %2$s.</string>
+    <string name="set_name">Name</string>
+    <string name="set_norm">Weekly goal</string>
+    <string name="set_norm_note">11 minutes of cold and 57 of heat a week come from a small 2021 study by Susanna Søberg. A handy guide, not a law.</string>
+    <string name="set_norm_why">Where the numbers come from</string>
+    <string name="set_session">During a session</string>
+    <string name="set_voice">Voice</string>
+    <string name="set_voice_sub">Says the steps and the time to come out</string>
+    <string name="set_tones">Forge sounds</string>
+    <string name="set_tones_sub">An anvil for heat, a hiss for cold, a countdown, a bell</string>
+    <string name="set_vibrate">Vibration</string>
+    <string name="set_fear">Ask how hard it is to begin</string>
+    <string name="set_fear_sub">For the fear chart on your blade</string>
+    <string name="set_test">Try the sounds</string>
+    <string name="set_voice_note">The voice uses your phone’s text-to-speech. If it is silent, install a voice for your language in the system settings.</string>
+    <string name="set_remind">Reminder</string>
+    <string name="set_remind_daily">Daily, if there was no session yet</string>
+    <string name="set_remind_off">Turn off</string>
+    <string name="set_remind_note">Comes with a tip from the smith and stays quiet on days you’ve practised.</string>
+    <string name="set_units">Temperature</string>
+    <string name="set_appearance">Appearance</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Ash</string>
+    <string name="theme_dark">Forge</string>
+    <string name="language">Language</string>
+    <string name="lang_system">System</string>
+    <string name="perm_title">Allow notifications</string>
+    <string name="perm_text">For the session timer with the screen off and the daily reminder.</string>
+    <string name="autostart_title">Sessions stopping with the screen off?</string>
+    <string name="autostart_text">Some phones (Xiaomi, Huawei, Samsung) stop apps in the background. Allow autostart and turn off battery restrictions for Temper.</string>
+    <string name="backup">Backup</string>
+    <string name="backup_text">Everything stays on this phone. Save a file to move to a new one.</string>
+    <string name="backup_export">Export</string>
+    <string name="backup_import">Import</string>
+    <string name="backup_import_title">Replace everything?</string>
+    <string name="backup_import_text">The sessions and programs on this phone are replaced by the ones in the file.</string>
+    <string name="backup_done">Saved</string>
+    <string name="backup_restored">Restored</string>
+    <string name="backup_failed">That didn’t work</string>
+    <string name="about">About</string>
+    <string name="about_text">Temper is free and open source. No ads, no account, no internet access. Part of Stillcraft, small tools for a quieter mind.</string>
+    <string name="disclaimer">Temper is not medical advice. Cold water and heat strain the heart and circulation; ask a doctor first if you have any condition, and never go into open water alone.</string>
+    <string name="about_version">Version %s</string>
+
+    <!-- Onboarding -->
+    <string name="ob_title">Temper</string>
+    <string name="ob_text">A smith tempers steel with fire and water. You can temper yourself the same way: cold water, contrast showers, the sauna.</string>
+    <string name="ob_text2">Every session folds a new layer into your own Damascus blade. Practise and it glows; leave it and it cools.</string>
+    <string name="ob_ways">Three ways to temper</string>
+    <string name="ob_cold">A shower, a bath, a lake or an ice hole. Calm breathing first, a target time, a guide through the first 30 seconds and warming up after.</string>
+    <string name="ob_contrast">Hot and cold by a voice from behind the curtain. Ready programs or your own.</string>
+    <string name="ob_sauna">The phone stays outside: it tells you when to come out by the clock, then leads the plunge and the rest.</string>
+    <string name="ob_free">Free, no ads, no account. Everything stays on your phone.</string>
+    <string name="ob_safety">Before you start</string>
+    <string name="ob_safety_text">Cold and heat are real strain. Ask a doctor first if any of this is about you:</string>
+    <string name="ob_understood">I understand and take care of myself</string>
+    <string name="ob_profile">Almost ready</string>
+    <string name="ob_name_hint">Your name (optional)</string>
+    <string name="ob_norm">Weekly goal</string>
+    <string name="ob_norm_text">Minutes in cold and in heat a week. You can change it any time.</string>
+    <string name="ob_norm_gentle">Gentle</string>
+    <string name="ob_norm_soberg">Søberg</string>
+    <string name="ob_norm_cold">Cold only</string>
+    <string name="ob_norm_line">Cold %d min a week</string>
+    <string name="ob_norm_heat">heat %d min</string>
+    <string name="ob_light">Light the forge</string>
+
+    <!-- Notifications and widget -->
+    <string name="channel_run">Session</string>
+    <string name="channel_run_desc">The timer while a session runs</string>
+    <string name="channel_remind">Reminders</string>
+    <string name="channel_remind_desc">The daily nudge</string>
+    <string name="notif_remind_title">The forge is waiting</string>
+    <string name="widget_name">Temper week</string>
+    <string name="widget_desc">This week’s cold and heat, and the blade’s glow</string>
+    <string name="widget_line">%1$s: %2$d / %3$d min</string>
+</resources>
