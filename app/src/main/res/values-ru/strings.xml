@@ -446,4 +446,15 @@
     <string name="widget_name">Неделя Temper</string>
     <string name="widget_desc">Холод и жар за неделю и жар клинка</string>
     <string name="widget_line">%1$s: %2$d / %3$d мин</string>
+    <!-- Community: the StillCraft bot on Telegram -->
+    <string name="community_title">Сообщество</string>
+    <string name="community_sub">Приложение делается вместе с теми, кто им пользуется. Всё идёт через бота StillCraft в Telegram.</string>
+    <string name="community_bug">Сообщить о баге</string>
+    <string name="community_bug_sub">что сломалось и как повторить</string>
+    <string name="community_idea">Предложить идею</string>
+    <string name="community_idea_sub">функция, план, клинок</string>
+    <string name="community_follow">Подписаться на обновления</string>
+    <string name="community_follow_sub">бот напишет, когда выйдет версия</string>
+    <string name="community_chat">Чат StillCraft</string>
+    <string name="community_chat_sub">все приложения и люди</string>
 </resources>

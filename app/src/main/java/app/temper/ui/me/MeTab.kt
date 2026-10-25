@@ -57,6 +57,7 @@ import app.temper.ui.Go
 import app.temper.ui.Language
 import app.temper.ui.TemperData
 import app.temper.ui.components.Chip
+import app.temper.ui.components.CommunityLinks
 import app.temper.ui.components.ConfirmDialog
 import app.temper.ui.components.InfoRow
 import app.temper.ui.components.SectionTitle
@@ -282,6 +283,8 @@ private fun SettingsBody(settings: Settings, go: Go?) {
             }
         }
     }
+
+    CommunityLinks()
 
     SectionTitle(stringResource(R.string.about))
     UCard {
